@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import usb from 'usb';
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+
+    // this.state = {
+    //   devices: usb.getDeviceList()
+    // }
+
+    // console.log(usb.getDeviceList())
+  }
   render() {
     return (
       <div className="App">
